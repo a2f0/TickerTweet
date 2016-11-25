@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0425AF179623030006BED4 /* walltweetie_turquois39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0425AE179623030006BED4 /* walltweetie_turquois39x39.png */; };
+		CA0949CA170E9A9700DE9014 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0949C9170E9A9700DE9014 /* Twitter.framework */; };
+		CA1462FA179F7C59003B9730 /* walltweet_birdonly_graypurptie43tall.png in Resources */ = {isa = PBXBuildFile; fileRef = CA1462F9179F7C59003B9730 /* walltweet_birdonly_graypurptie43tall.png */; };
+		CA29F53817109C5C00CF2F4A /* TickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA29F53717109C5C00CF2F4A /* TickerCell.m */; };
+		CA29F53A17109C7700CF2F4A /* TickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA29F53917109C7700CF2F4A /* TickerCell.xib */; };
+		CA36CC8317863BEA0007B204 /* TickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36CC8017863BEA0007B204 /* TickerTableViewController.m */; };
+		CA36CC8417863BEA0007B204 /* TickerTweetTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36CC8217863BEA0007B204 /* TickerTweetTabBarController.m */; };
+		CA38F6C1173D90D5007E4412 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA38F6C0173D90D5007E4412 /* SystemConfiguration.framework */; };
+		CA425FF61753EF9F00B5BFB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA425FF41753EF9F00B5BFB5 /* InfoPlist.strings */; };
+		CA4A8DE01793AF630044B733 /* TickerDetailUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4A8DDF1793AF630044B733 /* TickerDetailUIButton.m */; };
+		CA57EDC31739F361000C6A32 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA57EDC21739F361000C6A32 /* CoreText.framework */; };
+		CA60BEAF1795E4DC0057D441 /* purple_star-39x39-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEAD1795E4DC0057D441 /* purple_star-39x39-filled.png */; };
+		CA60BEB01795E4DC0057D441 /* purple_star-39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEAE1795E4DC0057D441 /* purple_star-39x39.png */; };
+		CA60BEB21795E6180057D441 /* purple_rss-39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEB11795E6180057D441 /* purple_rss-39x39.png */; };
+		CA60BEB51795E82C0057D441 /* purple_star_solid-39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEB31795E82C0057D441 /* purple_star_solid-39x39.png */; };
+		CA60BEB61795E82C0057D441 /* twitter_bird-39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEB41795E82C0057D441 /* twitter_bird-39x39.png */; };
+		CA60BEBA1795ED940057D441 /* purple_ticker_icon39x39.png in Resources */ = {isa = PBXBuildFile; fileRef = CA60BEB91795ED940057D441 /* purple_ticker_icon39x39.png */; };
+		CA618262177F73BB008F3BB8 /* TickerTweet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA618260177F73BB008F3BB8 /* TickerTweet.xcdatamodeld */; };
+		CA68A100173D6723008D078E /* TickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68A0FF173D6723008D078E /* TickerDetailViewController.m */; };
+		CA6B0D0E1795B7C200C2AC34 /* RSSUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B0D0D1795B7C200C2AC34 /* RSSUIBarButtonItem.m */; };
+		CA6B0D111795C42500C2AC34 /* FavoriteButtonBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B0D101795C42500C2AC34 /* FavoriteButtonBarItem.m */; };
+		CA7927A7176FD9F100C17A1C /* AppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7927A6176FD9F100C17A1C /* AppInfoViewController.m */; };
+		CA84F7A4170E79830069E014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84F7A3170E79830069E014 /* UIKit.framework */; };
+		CA84F7A8170E79830069E014 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84F7A7170E79830069E014 /* CoreGraphics.framework */; };
+		CA84F7AA170E79830069E014 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84F7A9170E79830069E014 /* CoreData.framework */; };
+		CA84F7B2170E79830069E014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA84F7B1170E79830069E014 /* main.m */; };
+		CA84F7B6170E79830069E014 /* TickerTweetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA84F7B5170E79830069E014 /* TickerTweetAppDelegate.m */; };
+		CA84F7CF170E8D460069E014 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84F7CE170E8D460069E014 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		CA8CB9201797971E009B1BD5 /* walltweetfontbanner_lightgray-320x44.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8CB91F1797971E009B1BD5 /* walltweetfontbanner_lightgray-320x44.png */; };
+		CA900A3F17950828002ACA58 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA900A3E17950828002ACA58 /* Ticker.m */; };
+		CA900A4517950A94002ACA58 /* FavoriteButtonUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA900A4417950A94002ACA58 /* FavoriteButtonUIButton.m */; };
+		CAC4C345170E9140006E5A55 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC4C344170E9140006E5A55 /* Social.framework */; };
+		CAD68B831796C33D00EF2107 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B7B1796C33D00EF2107 /* RootViewController.m */; };
+		CAD68B841796C33D00EF2107 /* AttributedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B7C1796C33D00EF2107 /* AttributedTableViewCell.m */; };
+		CAD68B851796C33D00EF2107 /* TTTAttributeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B7E1796C33D00EF2107 /* TTTAttributeCell.m */; };
+		CAD68B861796C33D00EF2107 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B821796C33D00EF2107 /* TTTAttributedLabel.m */; };
+		CAD68B891796C3D700EF2107 /* UpdateUniqueTickersNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B881796C3D700EF2107 /* UpdateUniqueTickersNSOperation.m */; };
+		CAD68B8D1796C42A00EF2107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B8A1796C42A00EF2107 /* Default-568h@2x.png */; };
+		CAD68B8E1796C42A00EF2107 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B8B1796C42A00EF2107 /* Default.png */; };
+		CAD68B8F1796C42A00EF2107 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B8C1796C42A00EF2107 /* Default@2x.png */; };
+		CAD68B931796C45900EF2107 /* rss_gray_banner320x44.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B901796C45900EF2107 /* rss_gray_banner320x44.png */; };
+		CAD68B941796C45900EF2107 /* walltweetfavorites_banner320x44.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B911796C45900EF2107 /* walltweetfavorites_banner320x44.png */; };
+		CAD68B951796C45900EF2107 /* walltweetfeed_banner320x44.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68B921796C45900EF2107 /* walltweetfeed_banner320x44.png */; };
+		CAD68B9A1796C49700EF2107 /* RSSButtonUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B971796C49700EF2107 /* RSSButtonUIButton.m */; };
+		CAD68B9B1796C49700EF2107 /* TweetieButtonUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B991796C49700EF2107 /* TweetieButtonUIButton.m */; };
+		CAD68BB11796C53400EF2107 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B9D1796C53400EF2107 /* DetailTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB21796C53400EF2107 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68B9F1796C53400EF2107 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB31796C53400EF2107 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BA11796C53400EF2107 /* MWFeedInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB41796C53400EF2107 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BA31796C53400EF2107 /* MWFeedItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB51796C53400EF2107 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BA61796C53400EF2107 /* MWFeedParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB61796C53400EF2107 /* MWFeedParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BA81796C53400EF2107 /* MWFeedParserAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB71796C53400EF2107 /* MWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BAA1796C53400EF2107 /* MWRootViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB81796C53400EF2107 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BAC1796C53400EF2107 /* NSDate+InternetDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BB91796C53400EF2107 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BAE1796C53400EF2107 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BBA1796C53400EF2107 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BB01796C53400EF2107 /* NSString+XMLEntities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CAD68BBD1796C5C400EF2107 /* UIColor+PXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BBC1796C5C400EF2107 /* UIColor+PXExtensions.m */; };
+		CAD68BC41796C8FD00EF2107 /* walltweetbirdlogo_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BBE1796C8FD00EF2107 /* walltweetbirdlogo_29x29.png */; };
+		CAD68BC51796C8FD00EF2107 /* walltweetbirdlogo_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BBF1796C8FD00EF2107 /* walltweetbirdlogo_57x57.png */; };
+		CAD68BC61796C8FD00EF2107 /* walltweetbirdlogo_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BC01796C8FD00EF2107 /* walltweetbirdlogo_58x58.png */; };
+		CAD68BC71796C8FD00EF2107 /* walltweetbirdlogo_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BC11796C8FD00EF2107 /* walltweetbirdlogo_114x114.png */; };
+		CAD68BC81796C8FD00EF2107 /* walltweetbirdlogo_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BC21796C8FD00EF2107 /* walltweetbirdlogo_512x512.png */; };
+		CAD68BC91796C8FD00EF2107 /* walltweetbirdlogo_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD68BC31796C8FD00EF2107 /* walltweetbirdlogo_1024x1024.png */; };
+		CAD68BCC1796CA3F00EF2107 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD68BCB1796CA3F00EF2107 /* CHCSVParser.m */; };
+		CAFDA5E0175DAB9800261EFF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDA5DF175DAB9800261EFF /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0425AE179623030006BED4 /* walltweetie_turquois39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetie_turquois39x39.png; path = Img/walltweetie_turquois39x39.png; sourceTree = "<group>"; };
+		CA0949C9170E9A9700DE9014 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CA1462F9179F7C59003B9730 /* walltweet_birdonly_graypurptie43tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweet_birdonly_graypurptie43tall.png; path = Img/walltweet_birdonly_graypurptie43tall.png; sourceTree = "<group>"; };
+		CA29F53617109C5C00CF2F4A /* TickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerCell.h; sourceTree = "<group>"; };
+		CA29F53717109C5C00CF2F4A /* TickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerCell.m; sourceTree = "<group>"; };
+		CA29F53917109C7700CF2F4A /* TickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TickerCell.xib; sourceTree = "<group>"; };
+		CA36CC7F17863BEA0007B204 /* TickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerTableViewController.h; sourceTree = "<group>"; };
+		CA36CC8017863BEA0007B204 /* TickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerTableViewController.m; sourceTree = "<group>"; };
+		CA36CC8117863BEA0007B204 /* TickerTweetTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerTweetTabBarController.h; sourceTree = "<group>"; };
+		CA36CC8217863BEA0007B204 /* TickerTweetTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerTweetTabBarController.m; sourceTree = "<group>"; };
+		CA38F6C0173D90D5007E4412 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA425FF51753EF9F00B5BFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CA4A8DDE1793AF630044B733 /* TickerDetailUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerDetailUIButton.h; sourceTree = "<group>"; };
+		CA4A8DDF1793AF630044B733 /* TickerDetailUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerDetailUIButton.m; sourceTree = "<group>"; };
+		CA57EDC21739F361000C6A32 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CA60BEAD1795E4DC0057D441 /* purple_star-39x39-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purple_star-39x39-filled.png"; path = "Img/purple_star-39x39-filled.png"; sourceTree = "<group>"; };
+		CA60BEAE1795E4DC0057D441 /* purple_star-39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purple_star-39x39.png"; path = "Img/purple_star-39x39.png"; sourceTree = "<group>"; };
+		CA60BEB11795E6180057D441 /* purple_rss-39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purple_rss-39x39.png"; path = "Img/purple_rss-39x39.png"; sourceTree = "<group>"; };
+		CA60BEB31795E82C0057D441 /* purple_star_solid-39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purple_star_solid-39x39.png"; path = "Img/purple_star_solid-39x39.png"; sourceTree = "<group>"; };
+		CA60BEB41795E82C0057D441 /* twitter_bird-39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter_bird-39x39.png"; path = "Img/twitter_bird-39x39.png"; sourceTree = "<group>"; };
+		CA60BEB91795ED940057D441 /* purple_ticker_icon39x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple_ticker_icon39x39.png; path = Img/purple_ticker_icon39x39.png; sourceTree = "<group>"; };
+		CA618261177F73BB008F3BB8 /* TickerTweet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickerTweet.xcdatamodel; sourceTree = "<group>"; };
+		CA68A0FE173D6723008D078E /* TickerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickerDetailViewController.h; sourceTree = "<group>"; };
+		CA68A0FF173D6723008D078E /* TickerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickerDetailViewController.m; sourceTree = "<group>"; };
+		CA6B0D0C1795B7C200C2AC34 /* RSSUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSUIBarButtonItem.h; path = UIBarButtonItems/RSSUIBarButtonItem.h; sourceTree = "<group>"; };
+		CA6B0D0D1795B7C200C2AC34 /* RSSUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSUIBarButtonItem.m; path = UIBarButtonItems/RSSUIBarButtonItem.m; sourceTree = "<group>"; };
+		CA6B0D0F1795C42500C2AC34 /* FavoriteButtonBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteButtonBarItem.h; path = UIBarButtonItems/FavoriteButtonBarItem.h; sourceTree = "<group>"; };
+		CA6B0D101795C42500C2AC34 /* FavoriteButtonBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteButtonBarItem.m; path = UIBarButtonItems/FavoriteButtonBarItem.m; sourceTree = "<group>"; };
+		CA7927A5176FD9F100C17A1C /* AppInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoViewController.h; sourceTree = "<group>"; };
+		CA7927A6176FD9F100C17A1C /* AppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoViewController.m; sourceTree = "<group>"; };
+		CA84F7A0170E79830069E014 /* TickerTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickerTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA84F7A3170E79830069E014 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA84F7A5170E79830069E014 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA84F7A7170E79830069E014 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA84F7A9170E79830069E014 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA84F7AD170E79830069E014 /* TickerTweet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerTweet-Info.plist"; sourceTree = "<group>"; };
+		CA84F7B1170E79830069E014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA84F7B3170E79830069E014 /* TickerTweet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickerTweet-Prefix.pch"; sourceTree = "<group>"; };
+		CA84F7B4170E79830069E014 /* TickerTweetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerTweetAppDelegate.h; sourceTree = "<group>"; };
+		CA84F7B5170E79830069E014 /* TickerTweetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerTweetAppDelegate.m; sourceTree = "<group>"; };
+		CA84F7CE170E8D460069E014 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CA8CB91F1797971E009B1BD5 /* walltweetfontbanner_lightgray-320x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "walltweetfontbanner_lightgray-320x44.png"; path = "Img/UINavigationBarBackgrounds/walltweetfontbanner_lightgray-320x44.png"; sourceTree = "<group>"; };
+		CA900A3D17950828002ACA58 /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticker.h; sourceTree = "<group>"; };
+		CA900A3E17950828002ACA58 /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticker.m; sourceTree = "<group>"; };
+		CA900A4317950A94002ACA58 /* FavoriteButtonUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteButtonUIButton.h; path = UIButtons/FavoriteButtonUIButton.h; sourceTree = "<group>"; };
+		CA900A4417950A94002ACA58 /* FavoriteButtonUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteButtonUIButton.m; path = UIButtons/FavoriteButtonUIButton.m; sourceTree = "<group>"; };
+		CAC4C344170E9140006E5A55 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CAD68B7B1796C33D00EF2107 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Vendor/TTTAttributedLabel/RootViewController.m; sourceTree = "<group>"; };
+		CAD68B7C1796C33D00EF2107 /* AttributedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttributedTableViewCell.m; path = Vendor/TTTAttributedLabel/AttributedTableViewCell.m; sourceTree = "<group>"; };
+		CAD68B7D1796C33D00EF2107 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Vendor/TTTAttributedLabel/RootViewController.h; sourceTree = "<group>"; };
+		CAD68B7E1796C33D00EF2107 /* TTTAttributeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTAttributeCell.m; path = Vendor/TTTAttributedLabel/TTTAttributeCell.m; sourceTree = "<group>"; };
+		CAD68B7F1796C33D00EF2107 /* TTTAttributeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTAttributeCell.h; path = Vendor/TTTAttributedLabel/TTTAttributeCell.h; sourceTree = "<group>"; };
+		CAD68B801796C33D00EF2107 /* AttributedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttributedTableViewCell.h; path = Vendor/TTTAttributedLabel/AttributedTableViewCell.h; sourceTree = "<group>"; };
+		CAD68B811796C33D00EF2107 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = Vendor/TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
+		CAD68B821796C33D00EF2107 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = Vendor/TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
+		CAD68B871796C3D700EF2107 /* UpdateUniqueTickersNSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateUniqueTickersNSOperation.h; sourceTree = "<group>"; };
+		CAD68B881796C3D700EF2107 /* UpdateUniqueTickersNSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateUniqueTickersNSOperation.m; sourceTree = "<group>"; };
+		CAD68B8A1796C42A00EF2107 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Img/SplashScreens/Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAD68B8B1796C42A00EF2107 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Img/SplashScreens/Default.png; sourceTree = "<group>"; };
+		CAD68B8C1796C42A00EF2107 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Img/SplashScreens/Default@2x.png"; sourceTree = "<group>"; };
+		CAD68B901796C45900EF2107 /* rss_gray_banner320x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss_gray_banner320x44.png; path = Img/UINavigationBarBackgrounds/rss_gray_banner320x44.png; sourceTree = "<group>"; };
+		CAD68B911796C45900EF2107 /* walltweetfavorites_banner320x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetfavorites_banner320x44.png; path = Img/UINavigationBarBackgrounds/walltweetfavorites_banner320x44.png; sourceTree = "<group>"; };
+		CAD68B921796C45900EF2107 /* walltweetfeed_banner320x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetfeed_banner320x44.png; path = Img/UINavigationBarBackgrounds/walltweetfeed_banner320x44.png; sourceTree = "<group>"; };
+		CAD68B961796C49700EF2107 /* RSSButtonUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSButtonUIButton.h; path = UIButtons/RSSButtonUIButton.h; sourceTree = "<group>"; };
+		CAD68B971796C49700EF2107 /* RSSButtonUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSButtonUIButton.m; path = UIButtons/RSSButtonUIButton.m; sourceTree = "<group>"; };
+		CAD68B981796C49700EF2107 /* TweetieButtonUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TweetieButtonUIButton.h; path = UIButtons/TweetieButtonUIButton.h; sourceTree = "<group>"; };
+		CAD68B991796C49700EF2107 /* TweetieButtonUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TweetieButtonUIButton.m; path = UIButtons/TweetieButtonUIButton.m; sourceTree = "<group>"; };
+		CAD68B9C1796C53400EF2107 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTableViewController.h; path = Vendor/MWFeedParser/DetailTableViewController.h; sourceTree = "<group>"; };
+		CAD68B9D1796C53400EF2107 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTableViewController.m; path = Vendor/MWFeedParser/DetailTableViewController.m; sourceTree = "<group>"; };
+		CAD68B9E1796C53400EF2107 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "Vendor/MWFeedParser/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		CAD68B9F1796C53400EF2107 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "Vendor/MWFeedParser/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		CAD68BA01796C53400EF2107 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = Vendor/MWFeedParser/MWFeedInfo.h; sourceTree = "<group>"; };
+		CAD68BA11796C53400EF2107 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = Vendor/MWFeedParser/MWFeedInfo.m; sourceTree = "<group>"; };
+		CAD68BA21796C53400EF2107 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = Vendor/MWFeedParser/MWFeedItem.h; sourceTree = "<group>"; };
+		CAD68BA31796C53400EF2107 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedItem.m; path = Vendor/MWFeedParser/MWFeedItem.m; sourceTree = "<group>"; };
+		CAD68BA41796C53400EF2107 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedParser_Private.h; path = Vendor/MWFeedParser/MWFeedParser_Private.h; sourceTree = "<group>"; };
+		CAD68BA51796C53400EF2107 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedParser.h; path = Vendor/MWFeedParser/MWFeedParser.h; sourceTree = "<group>"; };
+		CAD68BA61796C53400EF2107 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedParser.m; path = Vendor/MWFeedParser/MWFeedParser.m; sourceTree = "<group>"; };
+		CAD68BA71796C53400EF2107 /* MWFeedParserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedParserAppDelegate.h; path = Vendor/MWFeedParser/MWFeedParserAppDelegate.h; sourceTree = "<group>"; };
+		CAD68BA81796C53400EF2107 /* MWFeedParserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedParserAppDelegate.m; path = Vendor/MWFeedParser/MWFeedParserAppDelegate.m; sourceTree = "<group>"; };
+		CAD68BA91796C53400EF2107 /* MWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWRootViewController.h; path = Vendor/MWFeedParser/MWRootViewController.h; sourceTree = "<group>"; };
+		CAD68BAA1796C53400EF2107 /* MWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWRootViewController.m; path = Vendor/MWFeedParser/MWRootViewController.m; sourceTree = "<group>"; };
+		CAD68BAB1796C53400EF2107 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "Vendor/MWFeedParser/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		CAD68BAC1796C53400EF2107 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "Vendor/MWFeedParser/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		CAD68BAD1796C53400EF2107 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Vendor/MWFeedParser/NSString+HTML.h"; sourceTree = "<group>"; };
+		CAD68BAE1796C53400EF2107 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Vendor/MWFeedParser/NSString+HTML.m"; sourceTree = "<group>"; };
+		CAD68BAF1796C53400EF2107 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "Vendor/MWFeedParser/NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		CAD68BB01796C53400EF2107 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "Vendor/MWFeedParser/NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		CAD68BBB1796C5C400EF2107 /* UIColor+PXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+PXExtensions.h"; path = "Vendor/UIColor+PXExtensions/UIColor+PXExtensions.h"; sourceTree = "<group>"; };
+		CAD68BBC1796C5C400EF2107 /* UIColor+PXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+PXExtensions.m"; path = "Vendor/UIColor+PXExtensions/UIColor+PXExtensions.m"; sourceTree = "<group>"; };
+		CAD68BBE1796C8FD00EF2107 /* walltweetbirdlogo_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_29x29.png; path = Img/AppIcons/walltweetbirdlogo_29x29.png; sourceTree = "<group>"; };
+		CAD68BBF1796C8FD00EF2107 /* walltweetbirdlogo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_57x57.png; path = Img/AppIcons/walltweetbirdlogo_57x57.png; sourceTree = "<group>"; };
+		CAD68BC01796C8FD00EF2107 /* walltweetbirdlogo_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_58x58.png; path = Img/AppIcons/walltweetbirdlogo_58x58.png; sourceTree = "<group>"; };
+		CAD68BC11796C8FD00EF2107 /* walltweetbirdlogo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_114x114.png; path = Img/AppIcons/walltweetbirdlogo_114x114.png; sourceTree = "<group>"; };
+		CAD68BC21796C8FD00EF2107 /* walltweetbirdlogo_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_512x512.png; path = Img/AppIcons/walltweetbirdlogo_512x512.png; sourceTree = "<group>"; };
+		CAD68BC31796C8FD00EF2107 /* walltweetbirdlogo_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walltweetbirdlogo_1024x1024.png; path = Img/AppIcons/walltweetbirdlogo_1024x1024.png; sourceTree = "<group>"; };
+		CAD68BCA1796CA3F00EF2107 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCSVParser.h; path = Vendor/CHSVCParser/CHCSVParser.h; sourceTree = "<group>"; };
+		CAD68BCB1796CA3F00EF2107 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHCSVParser.m; path = Vendor/CHSVCParser/CHCSVParser.m; sourceTree = "<group>"; };
+		CAFDA5DE175DAB9800261EFF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CAFDA5DF175DAB9800261EFF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA84F79D170E79830069E014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38F6C1173D90D5007E4412 /* SystemConfiguration.framework in Frameworks */,
+				CA57EDC31739F361000C6A32 /* CoreText.framework in Frameworks */,
+				CA0949CA170E9A9700DE9014 /* Twitter.framework in Frameworks */,
+				CAC4C345170E9140006E5A55 /* Social.framework in Frameworks */,
+				CA84F7CF170E8D460069E014 /* Accounts.framework in Frameworks */,
+				CA84F7A4170E79830069E014 /* UIKit.framework in Frameworks */,
+				CA84F7A8170E79830069E014 /* CoreGraphics.framework in Frameworks */,
+				CA84F7AA170E79830069E014 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA109AC1178CF5DD0066D1D2 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68B9C1796C53400EF2107 /* DetailTableViewController.h */,
+				CAD68B9D1796C53400EF2107 /* DetailTableViewController.m */,
+				CAD68B9E1796C53400EF2107 /* GTMNSString+HTML.h */,
+				CAD68B9F1796C53400EF2107 /* GTMNSString+HTML.m */,
+				CAD68BA01796C53400EF2107 /* MWFeedInfo.h */,
+				CAD68BA11796C53400EF2107 /* MWFeedInfo.m */,
+				CAD68BA21796C53400EF2107 /* MWFeedItem.h */,
+				CAD68BA31796C53400EF2107 /* MWFeedItem.m */,
+				CAD68BA41796C53400EF2107 /* MWFeedParser_Private.h */,
+				CAD68BA51796C53400EF2107 /* MWFeedParser.h */,
+				CAD68BA61796C53400EF2107 /* MWFeedParser.m */,
+				CAD68BA71796C53400EF2107 /* MWFeedParserAppDelegate.h */,
+				CAD68BA81796C53400EF2107 /* MWFeedParserAppDelegate.m */,
+				CAD68BA91796C53400EF2107 /* MWRootViewController.h */,
+				CAD68BAA1796C53400EF2107 /* MWRootViewController.m */,
+				CAD68BAB1796C53400EF2107 /* NSDate+InternetDateTime.h */,
+				CAD68BAC1796C53400EF2107 /* NSDate+InternetDateTime.m */,
+				CAD68BAD1796C53400EF2107 /* NSString+HTML.h */,
+				CAD68BAE1796C53400EF2107 /* NSString+HTML.m */,
+				CAD68BAF1796C53400EF2107 /* NSString+XMLEntities.h */,
+				CAD68BB01796C53400EF2107 /* NSString+XMLEntities.m */,
+			);
+			name = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		CA425FBF1753EDA500B5BFB5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CA109AC1178CF5DD0066D1D2 /* MWFeedParser */,
+				CA7927A8176FDF2C00C17A1C /* UIColor+PXExtentions */,
+				CA425FF91753F13400B5BFB5 /* TTTAttributedLabel */,
+				CA425FF81753F07B00B5BFB5 /* CHSCVParser */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CA425FF31753EF9F00B5BFB5 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CA425FF41753EF9F00B5BFB5 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		CA425FF81753F07B00B5BFB5 /* CHSCVParser */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68BCA1796CA3F00EF2107 /* CHCSVParser.h */,
+				CAD68BCB1796CA3F00EF2107 /* CHCSVParser.m */,
+			);
+			name = CHSCVParser;
+			sourceTree = "<group>";
+		};
+		CA425FF91753F13400B5BFB5 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68B801796C33D00EF2107 /* AttributedTableViewCell.h */,
+				CAD68B7C1796C33D00EF2107 /* AttributedTableViewCell.m */,
+				CAD68B7D1796C33D00EF2107 /* RootViewController.h */,
+				CAD68B7B1796C33D00EF2107 /* RootViewController.m */,
+				CAD68B7F1796C33D00EF2107 /* TTTAttributeCell.h */,
+				CAD68B7E1796C33D00EF2107 /* TTTAttributeCell.m */,
+				CAD68B811796C33D00EF2107 /* TTTAttributedLabel.h */,
+				CAD68B821796C33D00EF2107 /* TTTAttributedLabel.m */,
+			);
+			name = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		CA6B0D0B1795B78000C2AC34 /* UIBarButtonItems */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B0D0C1795B7C200C2AC34 /* RSSUIBarButtonItem.h */,
+				CA6B0D0D1795B7C200C2AC34 /* RSSUIBarButtonItem.m */,
+				CA6B0D0F1795C42500C2AC34 /* FavoriteButtonBarItem.h */,
+				CA6B0D101795C42500C2AC34 /* FavoriteButtonBarItem.m */,
+			);
+			name = UIBarButtonItems;
+			sourceTree = "<group>";
+		};
+		CA7927A8176FDF2C00C17A1C /* UIColor+PXExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68BBB1796C5C400EF2107 /* UIColor+PXExtensions.h */,
+				CAD68BBC1796C5C400EF2107 /* UIColor+PXExtensions.m */,
+			);
+			name = "UIColor+PXExtentions";
+			sourceTree = "<group>";
+		};
+		CA84F797170E79830069E014 = {
+			isa = PBXGroup;
+			children = (
+				CA84F7AB170E79830069E014 /* TickerTweet */,
+				CA84F7A2170E79830069E014 /* Frameworks */,
+				CA84F7A1170E79830069E014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA84F7A1170E79830069E014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA84F7A0170E79830069E014 /* TickerTweet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA84F7A2170E79830069E014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA84F7CE170E8D460069E014 /* Accounts.framework */,
+				CA84F7A9170E79830069E014 /* CoreData.framework */,
+				CA84F7A7170E79830069E014 /* CoreGraphics.framework */,
+				CA57EDC21739F361000C6A32 /* CoreText.framework */,
+				CA84F7A5170E79830069E014 /* Foundation.framework */,
+				CAC4C344170E9140006E5A55 /* Social.framework */,
+				CA38F6C0173D90D5007E4412 /* SystemConfiguration.framework */,
+				CA0949C9170E9A9700DE9014 /* Twitter.framework */,
+				CA84F7A3170E79830069E014 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA84F7AB170E79830069E014 /* TickerTweet */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B0D0B1795B78000C2AC34 /* UIBarButtonItems */,
+				CA900A38179505FA002ACA58 /* Img */,
+				CADBADBA1792011800F5E367 /* UIButtons */,
+				CAD68B871796C3D700EF2107 /* UpdateUniqueTickersNSOperation.h */,
+				CAD68B881796C3D700EF2107 /* UpdateUniqueTickersNSOperation.m */,
+				CA7927A5176FD9F100C17A1C /* AppInfoViewController.h */,
+				CA7927A6176FD9F100C17A1C /* AppInfoViewController.m */,
+				CA84F7AC170E79830069E014 /* Supporting Files */,
+				CA29F53617109C5C00CF2F4A /* TickerCell.h */,
+				CA29F53717109C5C00CF2F4A /* TickerCell.m */,
+				CA29F53917109C7700CF2F4A /* TickerCell.xib */,
+				CA68A0FE173D6723008D078E /* TickerDetailViewController.h */,
+				CA68A0FF173D6723008D078E /* TickerDetailViewController.m */,
+				CA36CC7F17863BEA0007B204 /* TickerTableViewController.h */,
+				CA36CC8017863BEA0007B204 /* TickerTableViewController.m */,
+				CA618260177F73BB008F3BB8 /* TickerTweet.xcdatamodeld */,
+				CA900A3D17950828002ACA58 /* Ticker.h */,
+				CA900A3E17950828002ACA58 /* Ticker.m */,
+				CA84F7B4170E79830069E014 /* TickerTweetAppDelegate.h */,
+				CA84F7B5170E79830069E014 /* TickerTweetAppDelegate.m */,
+				CA36CC8117863BEA0007B204 /* TickerTweetTabBarController.h */,
+				CA36CC8217863BEA0007B204 /* TickerTweetTabBarController.m */,
+				CA425FBF1753EDA500B5BFB5 /* Vendor */,
+				CAFDA5DE175DAB9800261EFF /* WebViewController.h */,
+				CAFDA5DF175DAB9800261EFF /* WebViewController.m */,
+			);
+			path = TickerTweet;
+			sourceTree = "<group>";
+		};
+		CA84F7AC170E79830069E014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA425FF31753EF9F00B5BFB5 /* en.lproj */,
+				CA84F7AD170E79830069E014 /* TickerTweet-Info.plist */,
+				CA84F7B1170E79830069E014 /* main.m */,
+				CA84F7B3170E79830069E014 /* TickerTweet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA900A38179505FA002ACA58 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				CA1462F9179F7C59003B9730 /* walltweet_birdonly_graypurptie43tall.png */,
+				CAD68B7A1796BEF800EF2107 /* AppIcons */,
+				CAD68B791796BEE800EF2107 /* UINavigationBackgrounds */,
+				CAD68B781796BEE000EF2107 /* SplashScreens */,
+				CA0425AE179623030006BED4 /* walltweetie_turquois39x39.png */,
+				CA60BEB91795ED940057D441 /* purple_ticker_icon39x39.png */,
+				CA60BEB31795E82C0057D441 /* purple_star_solid-39x39.png */,
+				CA60BEB41795E82C0057D441 /* twitter_bird-39x39.png */,
+				CA60BEB11795E6180057D441 /* purple_rss-39x39.png */,
+				CA60BEAD1795E4DC0057D441 /* purple_star-39x39-filled.png */,
+				CA60BEAE1795E4DC0057D441 /* purple_star-39x39.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		CAD68B781796BEE000EF2107 /* SplashScreens */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68B8A1796C42A00EF2107 /* Default-568h@2x.png */,
+				CAD68B8B1796C42A00EF2107 /* Default.png */,
+				CAD68B8C1796C42A00EF2107 /* Default@2x.png */,
+			);
+			name = SplashScreens;
+			sourceTree = "<group>";
+		};
+		CAD68B791796BEE800EF2107 /* UINavigationBackgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CB91F1797971E009B1BD5 /* walltweetfontbanner_lightgray-320x44.png */,
+				CAD68B901796C45900EF2107 /* rss_gray_banner320x44.png */,
+				CAD68B911796C45900EF2107 /* walltweetfavorites_banner320x44.png */,
+				CAD68B921796C45900EF2107 /* walltweetfeed_banner320x44.png */,
+			);
+			name = UINavigationBackgrounds;
+			sourceTree = "<group>";
+		};
+		CAD68B7A1796BEF800EF2107 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68BBE1796C8FD00EF2107 /* walltweetbirdlogo_29x29.png */,
+				CAD68BBF1796C8FD00EF2107 /* walltweetbirdlogo_57x57.png */,
+				CAD68BC01796C8FD00EF2107 /* walltweetbirdlogo_58x58.png */,
+				CAD68BC11796C8FD00EF2107 /* walltweetbirdlogo_114x114.png */,
+				CAD68BC21796C8FD00EF2107 /* walltweetbirdlogo_512x512.png */,
+				CAD68BC31796C8FD00EF2107 /* walltweetbirdlogo_1024x1024.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
+		CADBADBA1792011800F5E367 /* UIButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CAD68B961796C49700EF2107 /* RSSButtonUIButton.h */,
+				CAD68B971796C49700EF2107 /* RSSButtonUIButton.m */,
+				CAD68B981796C49700EF2107 /* TweetieButtonUIButton.h */,
+				CAD68B991796C49700EF2107 /* TweetieButtonUIButton.m */,
+				CA900A4317950A94002ACA58 /* FavoriteButtonUIButton.h */,
+				CA900A4417950A94002ACA58 /* FavoriteButtonUIButton.m */,
+				CA4A8DDE1793AF630044B733 /* TickerDetailUIButton.h */,
+				CA4A8DDF1793AF630044B733 /* TickerDetailUIButton.m */,
+			);
+			name = UIButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA84F79F170E79830069E014 /* TickerTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA84F7C2170E79830069E014 /* Build configuration list for PBXNativeTarget "TickerTweet" */;
+			buildPhases = (
+				CA84F79C170E79830069E014 /* Sources */,
+				CA84F79D170E79830069E014 /* Frameworks */,
+				CA84F79E170E79830069E014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerTweet;
+			productName = TickerTweet;
+			productReference = CA84F7A0170E79830069E014 /* TickerTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA84F798170E79830069E014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TicketTweet;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dan Sullivan";
+			};
+			buildConfigurationList = CA84F79B170E79830069E014 /* Build configuration list for PBXProject "TickerTweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA84F797170E79830069E014;
+			productRefGroup = CA84F7A1170E79830069E014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA84F79F170E79830069E014 /* TickerTweet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA84F79E170E79830069E014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA29F53A17109C7700CF2F4A /* TickerCell.xib in Resources */,
+				CA425FF61753EF9F00B5BFB5 /* InfoPlist.strings in Resources */,
+				CA60BEAF1795E4DC0057D441 /* purple_star-39x39-filled.png in Resources */,
+				CA60BEB01795E4DC0057D441 /* purple_star-39x39.png in Resources */,
+				CA60BEB21795E6180057D441 /* purple_rss-39x39.png in Resources */,
+				CA60BEB51795E82C0057D441 /* purple_star_solid-39x39.png in Resources */,
+				CA60BEB61795E82C0057D441 /* twitter_bird-39x39.png in Resources */,
+				CA60BEBA1795ED940057D441 /* purple_ticker_icon39x39.png in Resources */,
+				CA0425AF179623030006BED4 /* walltweetie_turquois39x39.png in Resources */,
+				CAD68B8D1796C42A00EF2107 /* Default-568h@2x.png in Resources */,
+				CAD68B8E1796C42A00EF2107 /* Default.png in Resources */,
+				CAD68B8F1796C42A00EF2107 /* Default@2x.png in Resources */,
+				CAD68B931796C45900EF2107 /* rss_gray_banner320x44.png in Resources */,
+				CAD68B941796C45900EF2107 /* walltweetfavorites_banner320x44.png in Resources */,
+				CAD68B951796C45900EF2107 /* walltweetfeed_banner320x44.png in Resources */,
+				CAD68BC41796C8FD00EF2107 /* walltweetbirdlogo_29x29.png in Resources */,
+				CAD68BC51796C8FD00EF2107 /* walltweetbirdlogo_57x57.png in Resources */,
+				CAD68BC61796C8FD00EF2107 /* walltweetbirdlogo_58x58.png in Resources */,
+				CAD68BC71796C8FD00EF2107 /* walltweetbirdlogo_114x114.png in Resources */,
+				CAD68BC81796C8FD00EF2107 /* walltweetbirdlogo_512x512.png in Resources */,
+				CAD68BC91796C8FD00EF2107 /* walltweetbirdlogo_1024x1024.png in Resources */,
+				CA8CB9201797971E009B1BD5 /* walltweetfontbanner_lightgray-320x44.png in Resources */,
+				CA1462FA179F7C59003B9730 /* walltweet_birdonly_graypurptie43tall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA84F79C170E79830069E014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA84F7B2170E79830069E014 /* main.m in Sources */,
+				CA84F7B6170E79830069E014 /* TickerTweetAppDelegate.m in Sources */,
+				CA29F53817109C5C00CF2F4A /* TickerCell.m in Sources */,
+				CA68A100173D6723008D078E /* TickerDetailViewController.m in Sources */,
+				CAFDA5E0175DAB9800261EFF /* WebViewController.m in Sources */,
+				CA7927A7176FD9F100C17A1C /* AppInfoViewController.m in Sources */,
+				CA618262177F73BB008F3BB8 /* TickerTweet.xcdatamodeld in Sources */,
+				CA36CC8317863BEA0007B204 /* TickerTableViewController.m in Sources */,
+				CA36CC8417863BEA0007B204 /* TickerTweetTabBarController.m in Sources */,
+				CA4A8DE01793AF630044B733 /* TickerDetailUIButton.m in Sources */,
+				CA900A3F17950828002ACA58 /* Ticker.m in Sources */,
+				CA900A4517950A94002ACA58 /* FavoriteButtonUIButton.m in Sources */,
+				CA6B0D0E1795B7C200C2AC34 /* RSSUIBarButtonItem.m in Sources */,
+				CA6B0D111795C42500C2AC34 /* FavoriteButtonBarItem.m in Sources */,
+				CAD68B831796C33D00EF2107 /* RootViewController.m in Sources */,
+				CAD68B841796C33D00EF2107 /* AttributedTableViewCell.m in Sources */,
+				CAD68B851796C33D00EF2107 /* TTTAttributeCell.m in Sources */,
+				CAD68B861796C33D00EF2107 /* TTTAttributedLabel.m in Sources */,
+				CAD68B891796C3D700EF2107 /* UpdateUniqueTickersNSOperation.m in Sources */,
+				CAD68B9A1796C49700EF2107 /* RSSButtonUIButton.m in Sources */,
+				CAD68B9B1796C49700EF2107 /* TweetieButtonUIButton.m in Sources */,
+				CAD68BB11796C53400EF2107 /* DetailTableViewController.m in Sources */,
+				CAD68BB21796C53400EF2107 /* GTMNSString+HTML.m in Sources */,
+				CAD68BB31796C53400EF2107 /* MWFeedInfo.m in Sources */,
+				CAD68BB41796C53400EF2107 /* MWFeedItem.m in Sources */,
+				CAD68BB51796C53400EF2107 /* MWFeedParser.m in Sources */,
+				CAD68BB61796C53400EF2107 /* MWFeedParserAppDelegate.m in Sources */,
+				CAD68BB71796C53400EF2107 /* MWRootViewController.m in Sources */,
+				CAD68BB81796C53400EF2107 /* NSDate+InternetDateTime.m in Sources */,
+				CAD68BB91796C53400EF2107 /* NSString+HTML.m in Sources */,
+				CAD68BBA1796C53400EF2107 /* NSString+XMLEntities.m in Sources */,
+				CAD68BBD1796C5C400EF2107 /* UIColor+PXExtensions.m in Sources */,
+				CAD68BCC1796CA3F00EF2107 /* CHCSVParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA425FF41753EF9F00B5BFB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA425FF51753EF9F00B5BFB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA84F7C0170E79830069E014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "55170989-E01A-4405-A53D-08418EA8E13D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "55170989-E01A-4405-A53D-08418EA8E13D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		CA84F7C1170E79830069E014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "55170989-E01A-4405-A53D-08418EA8E13D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "55170989-E01A-4405-A53D-08418EA8E13D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA84F7C3170E79830069E014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerTweet/TickerTweet-Prefix.pch";
+				INFOPLIST_FILE = "TickerTweet/TickerTweet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55170989-E01A-4405-A53D-08418EA8E13D";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA84F7C4170E79830069E014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Sullivan (H4QLD7XWGS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerTweet/TickerTweet-Prefix.pch";
+				INFOPLIST_FILE = "TickerTweet/TickerTweet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55170989-E01A-4405-A53D-08418EA8E13D";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA84F79B170E79830069E014 /* Build configuration list for PBXProject "TickerTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA84F7C0170E79830069E014 /* Debug */,
+				CA84F7C1170E79830069E014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA84F7C2170E79830069E014 /* Build configuration list for PBXNativeTarget "TickerTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA84F7C3170E79830069E014 /* Debug */,
+				CA84F7C4170E79830069E014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA618260177F73BB008F3BB8 /* TickerTweet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA618261177F73BB008F3BB8 /* TickerTweet.xcdatamodel */,
+			);
+			currentVersion = CA618261177F73BB008F3BB8 /* TickerTweet.xcdatamodel */;
+			path = TickerTweet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA84F798170E79830069E014 /* Project object */;
+}
